@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "Feature" ,
         glue = "stepdefinitions",
-tags = "@CurrentTemp")
+tags = "@todaysTemp")
 
 public class TestRunner {
 }
