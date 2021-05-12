@@ -24,6 +24,12 @@ public class DarkSkyHome extends  Base{
 
    // 102˚
 
+    By darkSkyAPILnk  =By.xpath("//a[normalize-space()='Dark Sky API']");
+
+    public void clickDarkSkyAPILnk()
+    {
+        clickOn(darkSkyAPILnk);
+    }
 
     public ArrayList<String> getBarTempList()
     {
